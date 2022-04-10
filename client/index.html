@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <form name="formId">
+        <div class="form_container">
+            <div class="child" id="leftie">
+                <h3>Left Operand</h3>
+                <div>
+                    <input type="text" name="leftOperand" id="left">
+                </div>
+            </div>
+            <div class="child" id="opers">
+                <div>
+                    <input type="radio" name="operation" value="+" id="+">
+                    <label for="xs">+ Addition</label>
+                </div>
+                <div>
+                    <input type="radio" name="operation" value="-" id="-">
+                    <label for="s">- Subtraction</label>
+                </div>
+                <div>
+                    <input type="radio" name="operation" value="*" id="*">
+                    <label for="m">* Multiplication</label>
+                </div>
+                <div>
+                    <input type="radio" name="operation" value="/" id="-">
+                    <label for="l">/ Division</label>
+                </div>
+                <div>
+                    <input type="radio" name="operation" value="%" id="+">
+                    <label for="xl">% Remainder</label>
+                </div>
+            </div>
+            <div class="child" id="rightie">
+                <h3>Right Operand</h3>
+                <div>
+                    <input type="text" name="rightOperand" id="right">
+                </div>
+            </div>
+        </div>
+            <div>
+                <input type="button" id="submit" value="Calculate">
+            </div>
+
+    </form>
+    <div class="expression" id="expression">
+        <div class="expr"><h3>Expression: </h3></div>
+        <div class="expr" id="exp"></div>
+    </div>
+    <div class="result" id="result">
+        <div class="res"><h3>Results: </h3></div>
+        <div class="res" id="res"></div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.form_container {
+    text-align: center;
+}
+
+.child {
+    display: inline-block;
+    /* padding: 25px 50px 75px; */
+    padding: 5rem 10rem 15rem;
+}
+
+#leftie{
+    /* margin-left: 20%;
+    margin-top: 8%;
+        /* margin-left: 10%;
+        margin-top: 10%;
+        float: left; */
+}
+
+#rightie {
+    /* margin-top: 8%;
+    margin-right: 20%; */
+    /* margin-right: 10%;
+    margin-top: 10%;
+    float: right; */
+}
+
+#opers {
+    height: 10rem;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    margin-bottom: 1rem;
+}
+
+.results {
+    margin-left: 10%;
+}
+
+#submit {
+    margin-left: 15.5rem;
+    
+}
+
+.expression {
+    margin-left: 15rem;
+}
+
+.result {
+    margin-left: 15rem;
+}
+
+.expr {
+    display: inline-block;
+    padding-left: 0.5rem;
+}
+
+.res {
+    display: inline-block;
+    padding: 0.5rem;
+}
